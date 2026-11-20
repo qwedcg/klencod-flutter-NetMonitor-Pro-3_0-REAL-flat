@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' version '8.7.3' }
+
+android {
+    namespace 'com.netmonitor.pro'
+    compileSdk 35
+    ndkVersion '27.2.12479018'
+    defaultConfig {
+        applicationId 'com.netmonitor.pro'
+        minSdk 23
+        targetSdk 35
+        versionCode 3
+        versionName '3.0'
+    }
+}
